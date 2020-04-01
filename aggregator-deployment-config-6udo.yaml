@@ -1,0 +1,14 @@
+apiVersion: v1
+data:
+  ORDER_URL: http://order-deployment-service
+  USER_URL: http://user-deployment-service
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2020-04-01T14:59:51Z"
+  labels:
+    app: aggregator
+  name: aggregator-deployment-config-6udo
+  namespace: default
+  resourceVersion: "71949"
+  selfLink: /api/v1/namespaces/default/configmaps/aggregator-deployment-config-6udo
+  uid: 7067902e-7429-11ea-a906-42010a800061
