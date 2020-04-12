@@ -1,7 +1,5 @@
 package com.nagarro.nagp.aggregatorservice.model;
 
-import java.util.List;
-
 public class AggregatedOrderDetails {
 
 	private User userDetails;

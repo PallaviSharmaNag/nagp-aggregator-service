@@ -1,0 +1,14 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: aggregate
+order:
+  key: ${ORDER_URL:http://localhost:8081}
+user:
+  key: ${USER_URL:http://localhost:8082}
+opentracing:
+  jaeger:
+    udp-sender:
+      host: jaeger-agent
+      port: 6831 
